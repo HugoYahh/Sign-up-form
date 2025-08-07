@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="left-container">
+            <h1 id="title">Test Sign Up</h1>
+            <p id="credit">Photo by Brooke Balentine on <a href="unsplash.com" id="credit-link">Unsplash</a></p>
+        </div>
+        <div class="right-container">
+            <header>
+                <h1>This is literraly just a test Sign Up Form you know for academic purposes, so I'm just trying to <em>make</em> this text a bit long.</h1>
+            </header>
+
+            <div id="form">
+                <p id="form-title">Let's do This !</p>
+                <form action="" method="post">
+                    
+                    <div class="information">
+                        <div class="label-input">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" class="input" required placeholder="Enter your Name">
+                        </div>
+                        <div class="label-input">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" class="input" required placeholder="Enter your last name">
+                        </div>
+                        
+                        <div class="label-input">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="input valid-input" required placeholder="you@example.com"  title="Veuillez saisir une adresse e-mail valide">
+                        </div>
+                        <div class="label-input">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" name="phone" id="phone" class="input valid-input" required placeholder="01 00 00 00 00">
+                        </div>
+                        <div class="label-input">
+                            <label for="first-pwd">Password</label>
+                            <input type="password" name="first-pwd" id="first-pwd" class="input valid-input" required placeholder="Enter Password" pattern=".{8,}">
+                        </div>
+                        <div class="label-input">
+                            <label for="second-pwd">Confirm Password</label>
+                            <input type="password" name="second-pwd" id="second-pwd" class="input valid-input" required placeholder="Confirm Password" pattern=".{8,}">
+                        </div>
+                    </div>
+                    
+                    <button type="submit" id="submit-btn">Create Account</button>
+                </form>
+            </div>
+            <p id="log-in-text">Already have an account ? <a href="" id="log-in-link">Log In</a></p>
+        </div>
+    </div>
+</body>
+</html>
